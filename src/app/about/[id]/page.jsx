@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import CardSetLists from "@/components/CardSetLists";
 import HeadCol from "@/components/HeadCol";
-import Facil from "@/components/Facil";
+
 
 export default function GroupPage({ params }) {
   const [name, setName] = useState("");
