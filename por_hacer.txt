@@ -1,0 +1,6 @@
+- Falta crear boton de borrado de cada setlist en la lista de about
+X Falta mecanismo de actualizacion de grupo
+- Falta formulario creacion de nuevo setlist
+- Falta mecanismo de actualizacion de setlist
+- Falta control entrada de datos en formulario
+-Faltan mecanismos de error en los fetch

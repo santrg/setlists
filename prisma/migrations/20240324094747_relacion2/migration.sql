@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "SetLists" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT,
+    "groupId" INTEGER NOT NULL,
+    CONSTRAINT "SetLists_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "Group" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+);
